@@ -336,14 +336,17 @@ body{
 
 @media (max-width:768px){
     body{
-        display: flex;
-        flex-direction: column;
-        margin: 0 16px;
+        display: block;
+        margin: 0;
     }
 
     .cabecalho{
-        margin-top: 27px;
         display: flex;
+        margin: 27px 30px 50px 16px
+    }
+
+    .conteudo{
+        display: block;
     }
 
     .header-form-search-bar, .header-container-icon, .main-div-menu, .section-seu-projeto{
@@ -370,12 +373,8 @@ body{
     .section-editor-codigo{
         display: flex;
         flex-direction: column;
-        width: 378%;
-        margin-top: 50px;
-    }
-
-    .highlight{
-        width: 115%;
+        width: 100%;
+        margin-top: 0px;
     }
 
     .section-seu-projeto{
@@ -389,6 +388,21 @@ body{
         right: 40%;
     }
 
+    .div-textarea{
+        margin: 0px 16px 32px 16px;
+        width: auto;
+    }
+
+    .vizualizar-highlight{
+        width: 98%;
+        margin-left: 16px
+    }
+
+    .highlight{
+        margin-top: 0px;
+        width: 95%;
+
+    }
 
     .input-name-project{
         width: 129%;
