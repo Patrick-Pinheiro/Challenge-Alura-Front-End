@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./image/Logo.svg" alt="logo-Alura" class="header-logo">
+        <form action="" class="header-form-search-bar">
+                <input type="text" name="" class="header-search-bar" placeholder="Busque por algo">
+        </form>
+        <div class="header-container-icon">
+            <img src="./image/Photo.png" alt="icone-perfil" class="header-icon">
+            <span class="header-span">Harry</span>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <div class="main-div-menu">
+            <span class="menu-name">menu</span>
+            <div class="div-editor">
+                <img src="./image/Icon-editor.png" alt="icone-editor-de-código" class="icon-editor">
+                <span class="name-editor">Editor de código</span>
+            </div>
+            <div class="div-comunidade">
+                <img src="./image/Icon-comunidade.png" alt="icone-comunidade" class="icon-comunidade">
+                <span class="name-comunidade">Comunidade</span>
+            </div>  
+        </div>  
+
+        <section class="section-editor-codigo">
+            <div class="div-textarea">
+                <textarea name="editor-de-código" class="textarea"></textarea>
+                <div class="circles">
+                    <div class="circle-red"></div>
+                    <div class="circle-yellow"></div>
+                    <div class="circle-green"></div>
+                </div>
+            </div>
+
+            <button class="highlight">Visualizar com o highlight</button>
+        </section>
+
+        <section class="section-seu-projeto">
+            <h2 class="h2-your-project">Seu projeto</h2>
+            <form action="">
+                <input type="text" placeholder="Nome do seu projeto" class="input-name-project">
+            </form>
+            <form action="">
+                <input type="text" placeholder="Descrição do seu projeto" class="input-description-project">
+            </form>
+
+            <div class="div-personalização">
+                <h2 class="h2-personalização">Personalização</h2>
+                <form action="">
+                    <select name="" id="" class="select-code">
+                        <option value="">Javascript</option>
+                        <option value="">HTML</option>
+                        <option value="">CSS</option>
+                        <option value="">Phyton</option>
+                    </select>
+                </form>
+                <div>
+                    <input type="color" class="rect-blue" name="rect-blue" value="#6BD1FF">
+                </div>
+                <button class="button-save-project">Salvar projeto</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
