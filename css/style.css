@@ -41,6 +41,10 @@ body{
     margin-top: 12px;
 }
 
+.imagem-lupa, .imagem-menu-barras, .images-mobile-icons{
+    display: none;
+}
+
 .header-search-bar{
     width: 99%;
     height: 56px;
@@ -50,6 +54,7 @@ body{
     border: none;
     font-size: 16px;
     line-height: 24px;
+    color: #FFFFFF;
 }
 
 .header-container-icon{
@@ -67,6 +72,13 @@ body{
     font-size: 16px;
     line-height: 24px;
     color: #ffffff;
+}
+
+.header-ancora-icone-perfil{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -95,6 +107,13 @@ body{
     align-items: center;
 }
 
+
+.ancora-editor{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
 .name-editor{
     margin-left: 16px;
     font-size: 16px;
@@ -107,6 +126,14 @@ body{
     display: flex;
     align-items: center;
 }
+
+
+.ancora-comunidade{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
 
 .name-comunidade{
     margin-left: 16px;
@@ -144,6 +171,8 @@ body{
     width: 100%;
     height: 302px;
     background: #141414;
+    color: #FFFFFF;
+    padding: 50px 16px 0 16px;
 }
 
 .circles{
@@ -191,6 +220,7 @@ body{
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 
@@ -228,6 +258,7 @@ body{
     font-size: 16px;
     line-height: 24px;
     background: #2D415B;
+    color: #FFFFFF;
 }
 
 
@@ -241,6 +272,7 @@ body{
     border: none;
     font-size: 16px;
     line-height: 24px;
+    color: #FFFFFF;
 }
 
 
@@ -269,6 +301,7 @@ body{
     background: #2D415B;
     color: #FFFFFF;
     opacity: 0.64;
+    cursor: pointer;
 }
 
 
@@ -293,6 +326,87 @@ body{
     font-size: 16px;
     line-height: 24px;
     height: 56px;
+    cursor: pointer;
 }
 
 
+
+
+/*MEDIA QUERY - ADAPTAÇÃO PARA MOBILE*/
+
+@media (max-width:768px){
+    body{
+        display: flex;
+        flex-direction: column;
+        margin: 0 16px;
+    }
+
+    .cabecalho{
+        margin-top: 27px;
+        display: flex;
+    }
+
+    .header-form-search-bar, .header-container-icon, .main-div-menu, .section-seu-projeto{
+        display: none;
+    }
+
+    .images-mobile-icons{
+        display: flex;
+        width: 100%;
+        justify-content: end;
+        margin-top: 14px;
+    }
+
+    .imagem-lupa{
+        display: flex;
+        margin-right: 25px;
+    }
+
+
+    .imagem-menu-barras{
+        display: flex;
+    }
+
+    .section-editor-codigo{
+        display: flex;
+        flex-direction: column;
+        width: 378%;
+        margin-top: 50px;
+    }
+
+    .highlight{
+        width: 115%;
+    }
+
+    .section-seu-projeto{
+        display: flex;
+        flex-direction: column;
+        margin-top: 366%;
+        margin-left: 0;
+        width: 143%;
+        align-items: flex-start;
+        position: relative;
+        right: 40%;
+    }
+
+
+    .input-name-project{
+        width: 129%;
+    }
+
+    .input-description-project{
+        width: 130%;
+    }
+
+    .select-code{
+        width: 166%;
+    }
+
+    .rect-blue{
+        width: 166%;
+    }
+
+    .button-save-project{
+        width: 166%;
+    }
+}

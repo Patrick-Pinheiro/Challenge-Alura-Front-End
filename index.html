@@ -16,12 +16,24 @@
 <body>
     <header class="cabecalho">
         <img src="./image/Logo.svg" alt="logo-Alura" class="header-logo">
+
+        <div class="images-mobile-icons">
+            <div class="imagem-lupa">
+                <img src="./image/lupa.svg" alt="lupa-search">
+            </div>
+            <div class="imagem-menu-barras">
+                <img src="./image/menu-barras.svg" alt="menu-icone">
+            </div>
+        </div>
+
         <form action="" class="header-form-search-bar">
                 <input type="text" name="" class="header-search-bar" placeholder="Busque por algo">
         </form>
         <div class="header-container-icon">
-            <img src="./image/Photo.png" alt="icone-perfil" class="header-icon">
-            <span class="header-span">Harry</span>
+            <a href="#" class="header-ancora-icone-perfil">
+                <img src="./image/Photo.png" alt="icone-perfil" class="header-icon">
+                <span class="header-span">Harry</span>
+            </a>
         </div>
     </header>
 
@@ -29,12 +41,16 @@
         <div class="main-div-menu">
             <span class="menu-name">menu</span>
             <div class="div-editor">
-                <img src="./image/Icon-editor.png" alt="icone-editor-de-código" class="icon-editor">
-                <span class="name-editor">Editor de código</span>
+                <a href="#" class="ancora-editor">
+                    <img src="./image/Icon-editor.png" alt="icone-editor-de-código" class="icon-editor">
+                    <span class="name-editor">Editor de código</span>
+                </a>
             </div>
             <div class="div-comunidade">
-                <img src="./image/Icon-comunidade.png" alt="icone-comunidade" class="icon-comunidade">
-                <span class="name-comunidade">Comunidade</span>
+                <a href="#" class="ancora-comunidade">
+                    <img src="./image/Icon-comunidade.png" alt="icone-comunidade" class="icon-comunidade">
+                    <span class="name-comunidade">Comunidade</span>
+                </a>    
             </div>  
         </div>  
 
@@ -47,8 +63,9 @@
                     <div class="circle-green"></div>
                 </div>
             </div>
-
-            <button class="highlight">Visualizar com o highlight</button>
+            <a href="#">
+                <button class="highlight">Visualizar com o highlight</button>
+            </a>
         </section>
 
         <section class="section-seu-projeto">
@@ -73,7 +90,10 @@
                 <div>
                     <input type="color" class="rect-blue" name="rect-blue" value="#6BD1FF">
                 </div>
-                <button class="button-save-project">Salvar projeto</button>
+
+                <a href="#">
+                    <button name="button" class="button-save-project">Salvar projeto</button>
+                </a>
             </div>
         </section>
     </main>
