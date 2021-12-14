@@ -388,6 +388,10 @@ body{
         right: 40%;
     }
 
+    .section-seu-projeto{
+        display: none;
+    }
+
     .div-textarea{
         margin: 0px 16px 32px 16px;
         width: auto;
